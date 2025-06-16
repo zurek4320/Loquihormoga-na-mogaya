@@ -1,7 +1,3 @@
-#############################
-#        GRAMMAR RULES      #
-#############################
-
 --- NOUN RULES ---
 Noun + ǎ = feminine
 Noun + ě = masculine
@@ -22,8 +18,8 @@ Examples:
 
 --- VERB RULES ---
 Verb ǐ → ǎ = present continuous / ing-form  
-Verb + ǒ = future  
-ǐ → ě = past tense (not shown in examples below)
+Verb ǐ → ǒ = future  
+Verb ǐ → ě = past tense (not shown in examples below)
 
 Examples:
   Deglutǐ → Deglutǎ (to drink → drinking)
@@ -73,6 +69,7 @@ Examples:
 --- NUMBERS AND TIME ---
 Number + sona = day of the week  
 Number + man  = month
+Number + keki = times of something
 
 Examples:
   Sedumsona = Sunday  
@@ -83,6 +80,10 @@ Examples:
   Sedom hor Furaf hor Raf = 841  
   Anivěs qwa Turaf = 3 dogs  
   Portǎ sir Anivǎs qwa Traf ∆ gabaā = She has 2 dogs
+
+  Raf = 1
+  Keki = time
+  Vonǎ sir kraǐtō Rafkeki nada Keǐkūhorlava ∆ Deglutě nada Vonǎ nada Līn na moga. = I ate lava cake only once in my whole live.
 
 
 --- SENTENCE EXAMPLES ---
