@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conlang Dictionary</title>
+  <style>
+    details { margin-bottom: 1em; }
+    input { margin-bottom: 1em; width: 100%; padding: 5px; }
+    ul { list-style: none; padding: 0; }
+  </style>
+</head>
+<body>
+  <h1>Loquǐhormoga na mogaya</h1>
+  <input type="text" id="search" placeholder="Search...">
+
+  <details open>
+    <summary>Verbs</summary>
+    <ul id="verbs"></ul>
+  </details>
+  <details>
+    <summary>Nouns</summary>
+    <ul id="nouns"></ul>
+  </details>
+  <details>
+    <summary>Adjectives</summary>
+    <ul id="adjectives"></ul>
+  </details>
+  <details>
+    <summary>Others</summary>
+    <ul id="others"></ul>
+  </details>
+
+  <details>
+  <summary>Grammar</summary>
+  <pre id="grammar" style="white-space: pre-wrap;"></pre>
+</details>
+
+  <script>
+    const files = {
+      verbs: 'vocab/verbs.txt',
+      nouns: 'vocab/nouns.txt',
+      adjectives: 'vocab/adjectives.txt',
+      others: 'vocab/others.txt'
+    };
+
+    async function loadAndDisplay(category, file) {
+      const res = await fetch(file);
+      const text = await res.text();
+      let lines = text.trim().split('\n');
+
+      lines = lines.filter(line => line.includes(' - '));
+      lines.sort((a, b) => {
+        const aParts = a.split(' - ');
+        const bParts = b.split(' - ');
+        return aParts[1].localeCompare(bParts[1]);
+      });
+
+      const ul = document.getElementById(category);
+      for (const line of lines) {
+        const li = document.createElement('li');
+        li.textContent = line;
+        ul.appendChild(li);
+      }
+    }
+
+    for (const [category, file] of Object.entries(files)) {
+      loadAndDisplay(category, file);
+    }
+
+    document.getElementById('search').addEventListener('input', function () {
+      const query = this.value.toLowerCase();
+      document.querySelectorAll('ul').forEach(ul => {
+        Array.from(ul.children).forEach(li => {
+          li.style.display = li.textContent.toLowerCase().includes(query) ? '' : 'none';
+        });
+      });
+    });
+  
+    // Load and display grammar text
+    async function loadGrammar() {
+      const res = await fetch('vocab/grammar.txt');
+      const text = await res.text();
+      document.getElementById('grammar').textContent = text;
+    }
+
+    loadGrammar();
+  </script>
+</body>
+</html>

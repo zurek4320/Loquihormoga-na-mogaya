@@ -1,0 +1,114 @@
+#############################
+#        GRAMMAR RULES      #
+#############################
+
+--- NOUN RULES ---
+Noun + ǎ = feminine
+Noun + ě = masculine
+Noun + s = plural
+Noun + ŭ = food
+
+Examples:
+  Vonǎ     = I (said by a woman)
+  Portǎ    = She
+  Portě    = He
+  Port     = It/this/that
+  Ports    = They
+  Portǎs   = They (women only)
+  Vonō     = We
+  Voněō    = We (group of men)
+  Anivs    = Animals
+  Querŭ    = Pork (Quer = pig)
+
+--- VERB RULES ---
+Verb ǐ → ǎ = present continuous / ing-form  
+Verb + ǒ = future  
+ǐ → ě = past tense (not shown in examples below)
+
+Examples:
+  Deglutǐ → Deglutǎ (to drink → drinking)
+
+  Vorě sir Panū ∆ deglutā.  
+  = I drink water.  
+  (I - is - water - drink)
+
+  Modrǎ sir loquā na loquīě.  
+  = You talk loud.
+
+  Modrǎ na loquīǎ  
+  = You are shy
+
+  Modrǎ na loquīǎ ma  
+  = Are you shy?
+
+  Dana Modrǎ na loquǐǎ ma  
+  = Why are you shy?
+
+
+--- OWNERSHIP ---
+"nada" = particle indicating possession
+
+Examples:
+  Von nada Anivě  
+  = My dog
+
+  Gataīhorgaba sir lert nada Voně nada Gabahorlǐnī  
+  = The shop is to the left of my house
+
+--- LOCATIONS ---
+"in" = in
+"lert" = left
+"rert" = right
+"batyr" = front
+"dubyr" = back
+
+Examples:
+  Von sir in Gataīhorgaba  
+  = I am in the shop
+
+  Vor sir sorweqā in Sorweqhorgaba  
+  = I am working at office
+
+
+--- NUMBERS AND TIME ---
+Number + sona = day of the week  
+Number + man  = month
+
+Examples:
+  Sedumsona = Sunday  
+  Trafman = February  
+  Trafman nada Traf hor Sedum = 27 February  
+  Vonǎ sir Annos qwa Raf hor Furaf = I am 13 years old  
+
+  Sedom hor Furaf hor Raf = 841  
+  Anivěs qwa Turaf = 3 dogs  
+  Portǎ sir Anivǎs qwa Traf ∆ gabaā = She has 2 dogs
+
+
+--- SENTENCE EXAMPLES ---
+  Port sir Anivǎ  
+  = This is a cat
+
+  Port non sir Aniv  
+  = This isn't an animal
+
+  Oma sir Rafhorsona nada Natadi  
+  = Grandma has birthday today
+
+  Voně nada Soror na tofa sir na sona,  
+  barum Rafhorsona sir Portǎ nada Natadi  
+  = My little sister is happy because today is her birthday
+
+
+--- LOGIC ---
+Kara = If  
+Nara = Then  
+Equr = Equals
+
+Examples:
+  Traf sir def nada Traf  
+  = Divide two by two
+
+  Kara Traf sir def nada Traf sir equr Raf  
+  nara: ...  
+  = If 2 divided by 2 equals 1, then: ...
