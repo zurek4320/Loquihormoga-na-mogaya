@@ -37,10 +37,10 @@
 
   <script>
     const files = {
-      verbs: 'vocab/verbs.txt',
-      nouns: 'vocab/nouns.txt',
-      adjectives: 'vocab/adjectives.txt',
-      others: 'vocab/others.txt'
+      verbs: 'verbs.txt',
+      nouns: 'nouns.txt',
+      adjectives: 'adjectives.txt',
+      others: 'others.txt'
     };
 
     async function loadAndDisplay(category, file) {
@@ -78,7 +78,7 @@
   
     // Load and display grammar text
     async function loadGrammar() {
-      const res = await fetch('vocab/grammar.txt');
+      const res = await fetch('grammar.txt');
       const text = await res.text();
       document.getElementById('grammar').textContent = text;
     }
