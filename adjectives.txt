@@ -1,10 +1,12 @@
 Na Loquīě - loud
 Na Loquīǎ - quiet/shy
-Na Moga - a lot/much/big
-Na Toga - small
-Na sona - happy
-Na mona - sad 
+Na Moga - a lot/much/big/whole
+Na Toga - small/part
+Na Sona - happy
+Na Mona - sad 
 Na Mogaya - good/thanks
 Na Togaya - bad
 Na Medo - new/young
 Na Redo - old
+Na Allēgrǒ - fast/quick/quickly
+Na Lēntǒ - slow
