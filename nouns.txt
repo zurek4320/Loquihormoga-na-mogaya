@@ -62,11 +62,6 @@ Nahara - Aunt/uncle/cousin
 Natadi - birthday 
 Puta - thing
 Natadihorputa - present
-Kaki - What
-Keki - Where
-Kuki - How
-Kiki - When
-Kēkē - Whatever 
 Pen - pen
 Penicillus - pencil
 Leger - book
@@ -120,3 +115,15 @@ Vana - vagina
 Penis - penis
 Putf - ass
 Odor - music/song
+Lac - milk
+Panuēn - bread
+Cāso - cheese
+Keǐkū - cake
+Butyrum - butter
+Perō - ham
+Frat - fire
+Aquam - ice/snow
+Wurdan - wind
+Lava - lava
+Keǐkūhorlava - lava cake
+Līn - live
